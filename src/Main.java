@@ -60,6 +60,14 @@ public class Main {
                 if (i%6==0)
             System.out.println("Месяц " + i + " сумма накоплений равна " + storage + " рублей");
         }
+            //Задание 7
+            System.out.println("Задание 7");
+            int n = 2;
+            for (int i = 1; i <10; i++)
+                System.out.println(n + " * " + i + " = "
+                        + i*n);
+
+            }
 
 
 
@@ -72,7 +80,7 @@ public class Main {
 
 
         }
-    }
+
 
 
 
