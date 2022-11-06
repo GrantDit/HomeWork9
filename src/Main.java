@@ -15,7 +15,7 @@ public class Main {
             }
 
             //Задание 2
-            System.out.println("Задание 2");
+            System.out.println("\n Задание 2");
             int a = 11;
             while (a != 1) {
                 a--;
@@ -30,7 +30,7 @@ public class Main {
 
             }
             //Задание 3
-            System.out.println("Задание 3");
+            System.out.println("\n Задание 3");
             int country = 12000000; // deadCountry
             int newDeadInside = country / 1000 * 17; // notDeadInside
             int deadInside = country / 1000 * 8;  //deadInside
@@ -40,45 +40,73 @@ public class Main {
             }
 
             //Задание 4
-            System.out.println("Задание 4");
+            System.out.println("\n Задание 4");
             int money = 15000;
             int totalMoney = 0;
             int Month = 0;
             while (totalMoney <= 12000000) {
-                Month ++;
-                totalMoney = totalMoney + money + (money/ 100 * 7 *Month)-(money/100 * 7);
-                if (Month%6==0)
+                Month++;
+                totalMoney = totalMoney + money + (money / 100 * 7 * Month) - (money / 100 * 7);
+                if (Month % 6 == 0)
                     System.out.println("Месяц " + Month + " сумма накоплений равна " + totalMoney + " рублей");
 
             }
             //Задание 6
-            System.out.println("Задание 6");
+            System.out.println("\n Задание 6");
             int storage = 0;
             int deposit = 15000;
-            for (int i = 1; i < 109 ; i++) {
+            for (int i = 1; i < 109; i++) {
                 storage = storage + deposit + (deposit / 100 * 7 * i) - (deposit / 100 * 7);
-                if (i%6==0)
-            System.out.println("Месяц " + i + " сумма накоплений равна " + storage + " рублей");
-        }
+                if (i % 6 == 0)
+                    System.out.println("Месяц " + i + " сумма накоплений равна " + storage + " рублей");
+            }
+
+
             //Задание 7
-            System.out.println("Задание 7");
-            int n = 2;
-            for (int i = 1; i <=10; i++)
-                System.out.println(n + " * " + i + " = " + i*n);
-
+            System.out.println(" \n Задание 7");
+            int years = 0;
+            for (years = 0; years <= 2022; years += 79) {
+                if (years >= 2022 - 200)
+                    System.out.println("год кометы " + years);
             }
-
-
-
-
-
-
-
-            }
-
-
-
+            //years ++;
+            System.out.println(" следующий год " + years);
         }
+        //Задание 8
+        System.out.println("\n Задание 8");
+        for (int n = 1; n <= 10; n++) {
+            for (int a = 1; a <= 10; a++) {
+                System.out.print(n + " * " + a + " = " + a * n + "\t");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
