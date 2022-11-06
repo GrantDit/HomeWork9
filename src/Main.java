@@ -62,7 +62,7 @@ public class Main {
         }
             //Задание 7
             System.out.println("Задание 7");
-            int n = 8;
+            int n = 2;
             for (int i = 1; i <=10; i++)
                 System.out.println(n + " * " + i + " = " + i*n);
 
